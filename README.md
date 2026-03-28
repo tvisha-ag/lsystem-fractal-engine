@@ -318,20 +318,6 @@ The optimizer's vertex budget (150,000 vertices) automatically caps rendering be
 
 ---
 
-## Future Work
-
-- **Stochastic L-Systems** — probability-weighted alternative rules per symbol, creating non-deterministic organic variation
-- **3D L-Systems** — extend turtle to 3D using quaternion rotations; render with OpenGL depth buffer and perspective projection
-- **Parametric L-Systems** — symbols carry numerical parameters (e.g. `F(length)`) enabling context-sensitive growth rules
-- **Context-sensitive rules** — rules that depend on the left/right neighbours of each symbol: `a < b > c → d`
-- **Temporal animation** — animate angle, step length, and iteration count continuously for morphing fractals
-- **Post-processing pipeline** — bloom pass via framebuffer objects (FBO) for true physically-based glow
-- **GPU-side L-System generation** — offload string rewriting to a compute shader for real-time iteration scrubbing
-- **Audio-reactive mode** — tie growth speed and glow to microphone amplitude using PyAudio
-- **WebGL port** — port GLSL shaders and JS turtle to run in browser via WebGL + Emscripten
-- **Machine learning integration** — train a small neural network to discover novel L-System rules that produce aesthetically interesting structures
-
----
 
 ## Technical References
 
