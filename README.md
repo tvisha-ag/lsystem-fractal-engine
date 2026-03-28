@@ -336,3 +336,5 @@ MIT License — see `LICENSE` for details.
 ---
 
 *Built as a portfolio/research project demonstrating: formal language theory, graph algorithms, GPU shader programming, and systems architecture in Python.*
+
+<img width="464" height="489" alt="image" src="https://github.com/user-attachments/assets/bdc20149-6c9e-4439-a020-83a02776cfb1" />
